@@ -5,8 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beginner Tailwind</title>
 </head>
-<body class="flex items-center justify-center text-6xl bg-indigo-400 text-teal-100 min-h-screen">
-    Hello i'm a web Johnson
+<body>
+    <!-- =============================================================================================-->
+    <!-- header/nagivation ================================================================================== -->
+    <!-- =============================================================================================-->
+    <div class="bg-gradient-to-br from-white to-gray-300">
+        <!-- left circle -->
+        <div class="absolute top-0 left-0 hidden transform translate-x-4 translate-y-4 lg:block">
+            <div class="absolute w-64 h-64 rounded-full bg-gradient-to-br from-indigo-100 to-indigo-100" opacity-50></div>
+            <div class="absolute w-64 h-64 mt-10 ml-10 rounded-full opacity-50 bg-gradient-to-br from-puple-100 to-puple-100"></div>
+            <div class="absolute w-64 h-64 ml-24 rounded-full opacity-50 bg-gradient-to-br from-red-100 to-red-100"></div>
+        </div>
+        <!-- right circle -->
+        <div class="absolute top-0 right-0 hidden mr-48 transform -translate-x-64 translate-y-64 lg:block">
+            <div class="absolute w-64 h-64 rounded-full bg-gradient-to-br from-indigo-100 to-indigo-100" opacity-50></div>
+            <div class="absolute w-64 h-64 mt-10 ml-10 rounded-full opacity-50 bg-gradient-to-br from-puple-100 to-puple-100">
+            </div>
+            <div class="absolute w-64 h-64 ml-24 rounded-full opacity-50 bg-gradient-to-br from-red-100 to-red-100"></div>
+        </div>
+
+        <!-- navigation -->
+        <div class="relative text-gray-600">
+            <div class="container flex justify-between px-6 py-6 mx-auto lg:px-0">
+                <!-- left header section -->
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="text-2xl font-bold text-indigo-800">Beginner Tailwind</a>
+                    <a href="#" class="hidden hover:text-gray-900 lg:inline-block">About</a>
+                    <a href="#" class="hidden hover:text-gray-900 lg:inline-block">What You'll Learn</a>
+                    <a href="#" class="hidden hover:text-gray-900 lg:inline-block">Princing</a>
+                    <a href="#" class="hidden hover:text-gray-900 lg:inline-block">FAQ</a>
+                </div>
+                
+                <!-- right header section -->
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="hover:text-gray-900">Login</a>
+                    <a href="#" class="hidden p-3 text-purple-700 transition duration-500 bg-purple-300 rounded shadow lg:inline-block hover:bg-purple-200 hover:text-purple-600 hover:shadow-xl">
+                        Get the course
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    <!-- =============================================================================================-->
+    <!-- hero ================================================================================== -->
+    <!-- =============================================================================================-->
+        <div class="relative">
+            <div class="container py-24 mx-auto text-center p-x lg:px-0">
+                <!-- heading -->
+                <h1 class="mb-4 text-5xl font-extrabold lg:text-6xl">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-indigo-500">Beginner</span>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purlple-600 to-purple-500">Tailwind</span>
+                </h1>
+
+                <!-- paragraph -->
+                <p class="mb-8 text-lg text-gray-700 lg:text-2xl">Make good looking designs quickly!</p>
+
+                <!-- teaser image -->
+                <a href="#" class="inline-block px-12 py-3 mb-16 text-lg font-bold tracking-wide text-purple-100 transition duration-500 rounded shadow-lg lg:mb-32 bg-gradient-to-br from-purple-500 to-purple-700 hover:to-purple-600 hover:shadow-2xl hover:text-white">
+                    Get the course
+                </a>
+                <div class="relative">
+                    <img src="https://i.imgur.com/wysbBMS.png" alt="Teaser Image" class="border-4 border-purple-400 rounded-lg shadow-2xl">
+                    
+                    <!-- teaser image info box -->
+                    <div class="top-0 right-0 px-8 py-4 mt-8 text-left text-yellow-800 translate-x-4 -translate-y-2 bg-yellow-100 border-t-4 border-yellow-500 rounded shadow-lg lg:mt-0 lg:transform lg:absolute">
+                        <p>
+                            <strong class="font-bold">
+                                We'll create BeginnerTailwind.com 
+                                <span class="opacity-75">(it's the site you're on now)</span>
+                            </strong>
+                        </p>
+                        <p>We'll do it without a single line of custom CSS!</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- =============================================================================================-->
+    <!-- overview  ==================================================================================-->
+    <!-- =============================================================================================-->
+    
+    <!-- =============================================================================================-->
+    <!-- about me ================================================================================== -->
+    <!-- =============================================================================================-->
+
+    <!-- =============================================================================================-->
+    <!-- what youll learn ================================================================================== -->
+    <!-- =============================================================================================-->
+
+    <!-- =============================================================================================-->
+    <!-- what we'll build ================================================================================== -->
+    <!-- =============================================================================================-->
+
+    <!-- =============================================================================================-->
+    <!-- pricing ================================================================================== -->
+    <!-- =============================================================================================-->
+
+    <!-- =============================================================================================-->
+    <!-- faq  ==================================================================================-->
+    <!-- =============================================================================================-->
+
+    <!-- =============================================================================================-->
+    <!-- footer/newsletter ================================================================================== -->
+    <!-- =============================================================================================-->
 
     <script src="index.js"></script>
 </body> 
